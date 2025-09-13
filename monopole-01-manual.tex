@@ -1,0 +1,378 @@
+\documentclass[12 pt]{article}
+%\usepackage[frenchb]{babel}
+%\usepackage{draftcopy}
+%\usepackage{url}
+%%% eurosym provides \euro
+%\usepackage{eurosym}
+%%% Use \pounds for GBP
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage{svg}
+\svgpath{{svg-inkscape/}}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Heros}
+\setsansfont{TeX Gyre Heros}
+
+\pagestyle{empty}
+\parskip=8 pt
+\raggedright
+
+\newcommand{\bodyimage}[1]{\rightline{\includesvg[width=.7\textwidth]{images/{#1}}}}
+\newcommand{\separator}{\bigskip\hrule\bigskip}
+\newcommand{\monopolesection}[1]{%
+  \vbox{\bigskip\hrule
+  \section{#1}%
+  \separator}
+}
+
+\begin{document}
+
+\begin{minipage}[t]{0.5\linewidth}
+  \vspace{0pt}
+  \includesvg[width=1\textwidth]{images/user-manual-hero.svg}  
+\end{minipage}\begin{minipage}[t]{0.5\linewidth}
+  \vspace{0pt}
+  \begin{flushright}
+    \Huge
+    No O1 manual
+  \end{flushright}
+\end{minipage}
+
+\includegraphics[width=\textwidth]{images/monopole_no_o1_belt_steering.png}
+
+\separator
+
+Before riding your MONoPOLE bike, please read and understand the
+following safety information.
+
+If you lack professional-level bicycle mechanic skills or feel unsure,
+consult a qualified mechanic. Failure to follow the instructions in
+this manual may result in serious injury.
+
+\separator
+
+\monopolesection{Original MONoPOLE parts}
+
+\subsection{Source parts}
+
+You must source these parts from MONoPOLE, or get in touch about the
+precise specification for the parts which are standard components and
+available from third party suppliers.
+
+\subsection{Steering mechanism}
+
+All parts of the steering mechanism must be original and conform to
+MONoPOLE specifications. This includes the fork, cable clamps, cable
+stops, cable stop bolts, frame rubber grommets, steering belt, front
+headset, long steerer unit, and rear headset.
+
+\subsection{Cargo racks}
+
+The front cargo racks and all parts needed to attach them to the
+bicycle/frame must be original to the MONoPOLE specification. This
+includes the rack itself and the mounting hardware.
+
+
+\monopolesection{Steering}
+
+\subsection{Belt tension}
+
+Using the official Gates® Carbon Drive tension measuring tool (Gates
+art.nr. S8100030) measure the steering belt tension. It needs to be
+within the range of 7.5 to 10. If the tension falls outside this
+range, do not ride the bike. Instead, adjust the belt tension as
+described here below.
+
+\subsection{Belt excenter adjustment}
+
+The marking on the long steerer tube excentric insert indicates the
+position of the excenter. The more it is turned forwards, the more the
+belt will be tensioned. Turn the excentric one step at a time and
+measure the tension in between. Keep repeating until the correct value
+is achieved.
+
+\bodyimage{2_1_1_excenter_mark.svg}
+
+\subsection{Important}
+
+When adjusting the belt tension, turn the eccentric insert towards the
+non-drive side of the bike.
+
+\bodyimage{2_1_2_belt_excenter_adjustment.svg}
+
+\subsection{Belt securing blocks}
+
+Make sure the belt securing blocks are installed on both
+sprockets. Make sure they are installed using a medium strength (non
+permanent) threadlock solution. Make sure the bolts locking the belt
+to the sprocket are only tightened until the securing blocks sit flush
+against the belt. As soon as the belt starts to deform, you have
+tightened the bolts too much. Back up the preload until the belt is no
+longer deformed by the bolt tension. Let the threadlock dry to the
+manufacturers specification before you use the bike!
+
+\bodyimage{2_3_belt_securing_block.svg}
+
+\subsection{Long steerer headset preload}
+
+Every No O1 comes with a preinstalled steerer clamp to allow for stem
+changes and adjustments without having to retighten the long headtube
+headset. If, for whatever reason, you need to remove the steerer
+clamp, follow the instructions under 2.6 and 2.7 to retension the
+headset.
+
+\bodyimage{2_4_1_steerer_clamp.svg}
+
+\subsection{For non e-bike builds}
+
+If your headset has developed some play, act as follows: Preload the
+long head tube headset with the star fangled nut (installed on
+complete bikes, included with framesets) and the M6 topcap bolt, until
+there is no more play in the headset.
+
+\subsection{For Mahle X35 e-bike builds}
+
+At the bottom of the steerer, pull on the cable, then unplug the iWoc
+One and remove it. Now preload the long head tube headset with a long
+threadbar with nuts and washers until there is no more play in the
+headset. You may also use a standard steerer expander (not included
+with the bike/frame) to adjust headset play. Reassemble the iWoc One
+assembly and go ride.
+
+\bodyimage{2_4_2_threadbar.svg}
+
+\subsection{Play in your headset}
+
+If your headset has developed some play, act as follows: Losen the
+steerer clamp bolt. Tighten the short headtube topcap bolt until there
+is no more play in the headset. Then tighten the steerer clamp bolt to
+4.5 Nm.
+
+\bodyimage{2_5_short_steerer_headset_preload.svg}
+
+\subsection{Short headtube}
+
+For the short headtube, only headsets with a block lock function can
+be used. The maximum steering range for such headsets must not exceed
+150°!
+
+\bodyimage{2_6_1_headsets.svg}
+
+\subsection{Long headtube}
+
+For the long headtube: As an upper unit any standard 1 1/8” ahead
+headset may be used.
+
+\bodyimage{2_6_2_headsets.svg}
+
+\subsection{Lower unit}
+
+For the lower unit only original MONoPOLE parts must be used!
+
+\bodyimage{2_6_3_headsets.svg}
+
+\section{Cable routing}
+
+\subsection{Fork: Brake hose routing}
+
+Route the front brake hose as follows: Coming from the long steerer
+tube fix it with the single cable stop. Then form an arc to the
+underside of the steerer where you clamp it to its underside (on the
+non drive side) using the fender mount bolt and cable clamp.
+
+\bodyimage{3_1_1_brake_hose_routing.svg}
+
+\subsection{Welded-on cable anchors}
+
+Route it to the backside of the forkblades and secure it with a zip
+tie in both welded-on cable anchors.
+
+\bodyimage{3_1_2_brake_hose_routing.svg}
+
+\subsection{Light cable routing}
+
+When installing a lighting system, it is important to ensure that the
+front light cable port is properly protected by the rubber grommet,
+which should be securely in place to prevent dust and moisture from
+entering. Excess cable should be pulled through to allow the full
+steering range, as set by the BlockLock headset, without coming into
+contact with the steering belt. To keep the cable securely in
+position, it must be clamped to the underside of the steerer using the
+fender mount bolt and a drive-side cable clamp. Proper installation
+will ensure a clean setup while maintaining unrestricted steering and
+overall safety.
+
+\bodyimage{3_1_3_light_cable_routing.svg}
+
+\subsection{Frame: Pinion bikes}
+
+Ensure that the cable routing for the two shift cables is in the
+correct order.
+
+\bodyimage{3_2_1_brake_and_shift_cable_routing_pinion.svg}
+
+\subsection{Cable routing pinion bikes}
+
+\bodyimage{3_2_2_brake_and_shift_cable_routing.svg}
+
+\subsection{Attention with pinion bikes}
+
+Check that the cables running to the pinion gearbox do not interfere
+with the rotating crank!
+
+\bodyimage{3_2_5_brake_and_shift_cable_routing.svg}
+
+\subsection{Brake and shift cable routing hub gear and derrailleur
+  bikes}
+
+\bodyimage{3_2_3_brake_and_shift_cable_routing.svg}
+
+\subsection{Shift cable and rear brake hose}
+
+\bodyimage{6_1_bio_frameset_rear_shift_cable_routing.svg}
+
+\section{Racks/cargo}
+
+\subsection{Steering range}
+
+The full steering angle range must be available at all times, no
+matter what cargo you have loaded to the bike.
+
+\bodyimage{4_1_racks.svg}
+
+\subsection{Check interference}
+
+E.g. cargo must not interfere with your handlebars or any other
+component of the steering mechanism—see section 2—or any other moving
+part of the bicycle.
+
+\bodyimage{4_2_racks.svg}
+
+\subsection{Cargo securing items}
+
+Cargo securing items need to be stowed when not in use. In a way that
+they cannot losen or get in contact with any of the bikes moving
+parts.
+
+\bodyimage{4_3_racks_strap_good.svg}
+
+\subsection{Cargo securing items}
+
+\bodyimage{4_4_racks_strap_not_good.svg}
+
+\section{Applicable only to No O1 electric}
+
+\subsection{Mahle iWoc One and motor cable routing}
+
+Make sure you stow the excess length of the iWoc One cable (for Mahle
+X35 e-bike builds) inside the long head tube steerer and not inside
+the frame main tube! Make sure that the iWoc One cable (for Mahle X35
+e-bike builds) cannot interfere with the steering sprocket over the
+whole range of steerer rotation.
+
+\bodyimage{5_1_no_o1_electric_mahle_iwoc_one.svg}
+
+\subsection{Motor cable fixation}
+
+The motor cable must be secured using clamping bolts/clamps and must
+not interfere with any moving parts, such as the cranks, disc rotor,
+kickstand, etc.
+
+\bodyimage{5_3_no_o1_electric_bolt_clamps.svg}
+
+\subsection{Motor cable fixation}
+
+The motor cable must not interfere with any moving parts, such as the
+cranks, disc rotor, kickstand, etc.
+
+\bodyimage{5_2_no_o1_electric_motor_cable.svg}
+
+\subsection{Mahle motor, rear light and PAS (pedal assist sensor) cable routing}
+
+The rear light cable and motor cable must not interfere with any
+moving parts such as the belt ring, cranks, wheel, etc.
+
+\bodyimage{5_4_no_o1_electric_sensor_motor_cable.svg}
+
+\subsection{PAS sensor cable}
+
+The PAS sensor cable must be secured with the designated bolt and must
+not interfere with moving parts such as the belt ring, cranks, wheel,
+etc.
+
+\bodyimage{5_5_no_o1_electric_pas_sensor.svg}
+
+\subsection{Turning the E-drive system on/off and changing settings.}
+
+On the MONoPOLE No O1 electric, the on/off button is located on top of
+the stem. The same button is used to switch between the support modes
+of the drive system. For further information, please refer to the
+Mahle X-35 E-drive system product manual you received when purchasing
+the bike.
+
+{\it *This information is mandated by governing bodies. We assume that
+  you, as our customer, can figure out how to turn the system on and
+  off. Additionally, our sales staff will have explained this to you
+  during your purchase.}
+
+\bodyimage{5_6_no_o1_electric_power_button.svg}
+
+\section{Applicable only to No O1 bio and frameset}
+
+\subsection{Rear brake and shift cable routing}
+
+BSA adapter builds: The rear brake hose and shift cable enter the
+adapter as shown and run through the drive-side and non-drive-side
+chainstays, respectively, from there.
+
+\bodyimage{6_1_bio_frameset_rear_shift_cable_routing.svg}
+
+\subsection{BSA mount torque values}
+
+BSA adapter: Make sure the bolts are tightened in alternation to a
+value of: 10 Nm.
+
+\bodyimage{6_2_bio_frameset_mount_torque_values.svg}
+
+\section{Specs to respect}
+
+\subsection{Max. brake rotor size}
+
+\bodyimage{7_1_specs_to_respect_rotor.svg}
+
+\subsection{Bottle cage bolt length}
+
+In case you use longer bolts than originally supplied with your
+bike/frame to mount a bottle cage, make sure bolts do not collide with
+the steerer! With the bolts fully tight, check whether the handlebars
+and steerer rotate freely.
+
+\bodyimage{7_2_specs_to_respect_bottle.svg}
+
+\subsection{Long steerer tube cable stop bolts}
+
+Before every ride: Make sure the cable stop bolts do not collide with
+the steerer! With the bolts fully tight, check whether the handlebars
+and steerer rotate freely.
+
+\bodyimage{7_3_specs_to_respect_cable_stops.svg}
+
+\section{Cleaning of the bike/frameset}
+
+Regular cleaning and maintenance are important for the safety and
+longevity of your bike. We recommend wetting your bike only with a
+standard water hose, using a gentle water jet. Avoid pointing the jet
+directly at bearings or other delicate areas of the bike. Do not use
+pressure washers! Clean your bike only with a clean, moist, and soft
+towel. If needed, use a bicycle-specific cleaner.
+
+{\it *This information is mandated by governing bodies. We assume that
+  you, as our customer, are aware of the requirements for safely
+  cleaning a bicycle, but it may still be beneficial to have a
+  reminder.}
+
+\end{document}
+
